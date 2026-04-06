@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MarketShop - Komputer & Aksesoris</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+        }
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+            padding: 10px;
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .price {
+            color: green;
+            font-weight: bold;
+        }
+        button {
+            background: #27ae60;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #219150;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>MarketShop</h1>
+    <p>Produk Komputer & Aksesoris</p>
+</header>
+
+<div class="container">
+
+    <!-- Produk 1 -->
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1587202372775-e229f172b9d7?w=300" alt="PC Desktop">
+        <h3>PC Desktop</h3>
+        <p class="price">Rp 8.000.000</p>
+        <button>Beli</button>
+    </div>
+
+    <!-- Produk 2 -->
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=300" alt="Monitor">
+        <h3>Monitor LED</h3>
+        <p class="price">Rp 2.000.000</p>
+        <button>Beli</button>
+    </div>
+
+    <!-- Produk 3 -->
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=300" alt="Keyboard">
+        <h3>Keyboard Gaming</h3>
+        <p class="price">Rp 500.000</p>
+        <button>Beli</button>
+    </div>
+
+    <!-- Produk 4 -->
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=300" alt="Mouse">
+        <h3>Mouse Gaming</h3>
+        <p class="price">Rp 200.000</p>
+        <button>Beli</button>
+    </div>
+
+    <!-- Produk 5 -->
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1580894908361-967195033215?w=300" alt="Headset">
+        <h3>Headset Komputer</h3>
+        <p class="price">Rp 350.000</p>
+        <button>Beli</button>
+    </div>
+
+    <!-- Produk 6 -->
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=300" alt="Speaker">
+        <h3>Speaker Komputer</h3>
+        <p class="price">Rp 300.000</p>
+        <button>Beli</button>
+    </div>
+
+</div>
+
+</body>
+</html>

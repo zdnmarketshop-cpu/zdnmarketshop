@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MarketShop - Elektronik</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+        }
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+            padding: 10px;
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .price {
+            color: green;
+            font-weight: bold;
+        }
+        button {
+            background: #27ae60;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #219150;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>MarketShop</h1>
+    <p>Produk Elektronik</p>
+</header>
+
+<div class="container">
+
+    <!-- Produk 1 -->
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1593784991095-a205069470b6?w=300" alt="Televisi">
+        <h3>Smart TV</h3>
+        <p class="price">Rp 4.000.000</p>
+        <button>Beli</button>
+    </div>
+
+    <!-- Produk 2 -->
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1580894908361-967195033215?w=300" alt="Speaker">
+        <h3>Speaker Bluetooth</h3>
+        <p class="price">Rp 500.000</p>
+        <button>Beli</button>
+    </div>
+
+    <!-- Produk 3 -->
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1518444028785-8fdfc0f84b3c?w=300" alt="Keyboard">
+        <h3>Keyboard Elektronik</h3>
+        <p class="price">Rp 700.000</p>
+        <button>Beli</button>
+    </div>
+
+    <!-- Produk 4 -->
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=300" alt="Laptop">
+        <h3>Laptop</h3>
+        <p class="price">Rp 9.000.000</p>
+        <button>Beli</button>
+    </div>
+
+    <!-- Produk 5 -->
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1510557880182-3c29f0d2c9b3?w=300" alt="Smartphone">
+        <h3>Smartphone</h3>
+        <p class="price">Rp 3.000.000</p>
+        <button>Beli</button>
+    </div>
+
+    <!-- Produk 6 -->
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=300" alt="Tablet">
+        <h3>Tablet</h3>
+        <p class="price">Rp 2.500.000</p>
+        <button>Beli</button>
+    </div>
+
+</div>
+
+</body>
+</html>

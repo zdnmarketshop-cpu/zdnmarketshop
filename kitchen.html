@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MarketShop - Kitchen</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+        }
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+            padding: 10px;
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .price {
+            color: green;
+            font-weight: bold;
+        }
+        button {
+            background: #27ae60;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #219150;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>MarketShop</h1>
+    <p>Produk Kitchen</p>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <img src="https://source.unsplash.com/300x200/?frying-pan" alt="Wajan">
+        <h3>Wajan Anti Lengket</h3>
+        <p class="price">Rp 120.000</p>
+        <button>Beli</button>
+    </div>
+
+    <div class="card">
+        <img src="https://source.unsplash.com/300x200/?knife" alt="Pisau">
+        <h3>Pisau Dapur</h3>
+        <p class="price">Rp 80.000</p>
+        <button>Beli</button>
+    </div>
+
+    <div class="card">
+        <img src="https://source.unsplash.com/300x200/?blender" alt="Blender">
+        <h3>Blender</h3>
+        <p class="price">Rp 300.000</p>
+        <button>Beli</button>
+    </div>
+
+    <div class="card">
+        <img src="https://source.unsplash.com/300x200/?rice-cooker" alt="Rice Cooker">
+        <h3>Rice Cooker</h3>
+        <p class="price">Rp 400.000</p>
+        <button>Beli</button>
+    </div>
+
+    <div class="card">
+        <img src="https://source.unsplash.com/300x200/?kitchen-utensils" alt="Alat Masak">
+        <h3>Set Alat Masak</h3>
+        <p class="price">Rp 200.000</p>
+        <button>Beli</button>
+    </div>
+
+    <div class="card">
+        <img src="https://source.unsplash.com/300x200/?coffee-maker" alt="Coffee Maker">
+        <h3>Mesin Kopi</h3>
+        <p class="price">Rp 500.000</p>
+        <button>Beli</button>
+    </div>
+
+</div>
+
+</body>
+</html>

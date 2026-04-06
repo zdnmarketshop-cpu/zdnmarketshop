@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MarketShop - Handphone & Tablet</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+        }
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+            padding: 10px;
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .price {
+            color: green;
+            font-weight: bold;
+        }
+        button {
+            background: #27ae60;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #219150;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>MarketShop</h1>
+    <p>Produk Handphone & Tablet</p>
+</header>
+
+<div class="container">
+
+    <!-- Produk 1 -->
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=300" alt="Smartphone">
+        <h3>Smartphone Android</h3>
+        <p class="price">Rp 2.500.000</p>
+        <button>Beli</button>
+    </div>
+
+    <!-- Produk 2 -->
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1510557880182-3c29f0d2c9b3?w=300" alt="iPhone">
+        <h3>iPhone Premium</h3>
+        <p class="price">Rp 8.000.000</p>
+        <button>Beli</button>
+    </div>
+
+    <!-- Produk 3 -->
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=300" alt="Tablet">
+        <h3>Tablet Android</h3>
+        <p class="price">Rp 3.000.000</p>
+        <button>Beli</button>
+    </div>
+
+    <!-- Produk 4 -->
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1561154464-82e9adf32764?w=300" alt="iPad">
+        <h3>Tablet Premium</h3>
+        <p class="price">Rp 7.000.000</p>
+        <button>Beli</button>
+    </div>
+
+    <!-- Produk 5 -->
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=300" alt="Gaming Phone">
+        <h3>Handphone Gaming</h3>
+        <p class="price">Rp 5.000.000</p>
+        <button>Beli</button>
+    </div>
+
+    <!-- Produk 6 -->
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1609081219090-a6d81d3085bf?w=300" alt="Tablet Belajar">
+        <h3>Tablet Belajar</h3>
+        <p class="price">Rp 2.800.000</p>
+        <button>Beli</button>
+    </div>
+
+</div>
+
+</body>
+</html>

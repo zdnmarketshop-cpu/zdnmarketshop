@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MarketShop - Otomotif</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+        }
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+            padding: 10px;
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .price {
+            color: green;
+            font-weight: bold;
+        }
+        button {
+            background: #27ae60;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #219150;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>MarketShop</h1>
+    <p>Produk Otomotif</p>
+</header>
+
+<div class="container">
+
+    <!-- Produk 1 -->
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=300" alt="Mobil">
+        <h3>Mobil Sport</h3>
+        <p class="price">Rp 500.000.000</p>
+        <button>Beli</button>
+    </div>
+
+    <!-- Produk 2 -->
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1518655048521-f130df041f66?w=300" alt="Motor">
+        <h3>Motor Sport</h3>
+        <p class="price">Rp 50.000.000</p>
+        <button>Beli</button>
+    </div>
+
+    <!-- Produk 3 -->
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=300" alt="Helm">
+        <h3>Helm Motor</h3>
+        <p class="price">Rp 500.000</p>
+        <button>Beli</button>
+    </div>
+
+    <!-- Produk 4 -->
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1583267746946-e1efc4c9e2f9?w=300" alt="Ban Mobil">
+        <h3>Ban Mobil</h3>
+        <p class="price">Rp 1.000.000</p>
+        <button>Beli</button>
+    </div>
+
+    <!-- Produk 5 -->
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1619767886558-efdc259cde1a?w=300" alt="Oli">
+        <h3>Oli Mesin</h3>
+        <p class="price">Rp 150.000</p>
+        <button>Beli</button>
+    </div>
+
+    <!-- Produk 6 -->
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1625047509168-a7026f36de04?w=300" alt="Aksesoris Mobil">
+        <h3>Aksesoris Mobil</h3>
+        <p class="price">Rp 300.000</p>
+        <button>Beli</button>
+    </div>
+
+</div>
+
+</body>
+</html>

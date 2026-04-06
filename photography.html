@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MarketShop - Kamera Foto & Video</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+        }
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+            padding: 10px;
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .price {
+            color: green;
+            font-weight: bold;
+        }
+        button {
+            background: #27ae60;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #219150;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>MarketShop</h1>
+    <p>Produk Kamera Foto & Video</p>
+</header>
+
+<div class="container">
+
+    <!-- Produk 1 -->
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=300" alt="Kamera DSLR">
+        <h3>Kamera DSLR</h3>
+        <p class="price">Rp 8.000.000</p>
+        <button>Beli</button>
+    </div>
+
+    <!-- Produk 2 -->
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1495427513693-3f3e4f9b7b03?w=300" alt="Kamera Mirrorless">
+        <h3>Kamera Mirrorless</h3>
+        <p class="price">Rp 10.000.000</p>
+        <button>Beli</button>
+    </div>
+
+    <!-- Produk 3 -->
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1510127034890-ba27508e9f1c?w=300" alt="Action Camera">
+        <h3>Action Camera</h3>
+        <p class="price">Rp 3.000.000</p>
+        <button>Beli</button>
+    </div>
+
+    <!-- Produk 4 -->
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1502920917128-1aa500764b3f?w=300" alt="Video Camera">
+        <h3>Kamera Video</h3>
+        <p class="price">Rp 6.000.000</p>
+        <button>Beli</button>
+    </div>
+
+    <!-- Produk 5 -->
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1519183071298-a2962eadc0d6?w=300" alt="Tripod">
+        <h3>Tripod Kamera</h3>
+        <p class="price">Rp 500.000</p>
+        <button>Beli</button>
+    </div>
+
+    <!-- Produk 6 -->
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1516726817505-f5ed825624d8?w=300" alt="Drone Camera">
+        <h3>Drone Kamera</h3>
+        <p class="price">Rp 12.000.000</p>
+        <button>Beli</button>
+    </div>
+
+</div>
+
+</body>
+</html>

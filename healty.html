@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MarketShop - Healthy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+        }
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+            padding: 10px;
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .price {
+            color: green;
+            font-weight: bold;
+        }
+        button {
+            background: #27ae60;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #219150;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>MarketShop</h1>
+    <p>Produk Healthy</p>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <img src="https://source.unsplash.com/300x200/?vitamins" alt="Vitamin">
+        <h3>Vitamin C</h3>
+        <p class="price">Rp 50.000</p>
+        <button>Beli</button>
+    </div>
+
+    <div class="card">
+        <img src="https://source.unsplash.com/300x200/?supplements" alt="Suplemen">
+        <h3>Suplemen Kesehatan</h3>
+        <p class="price">Rp 120.000</p>
+        <button>Beli</button>
+    </div>
+
+    <div class="card">
+        <img src="https://source.unsplash.com/300x200/?healthy-food" alt="Makanan Sehat">
+        <h3>Makanan Sehat</h3>
+        <p class="price">Rp 80.000</p>
+        <button>Beli</button>
+    </div>
+
+    <div class="card">
+        <img src="https://source.unsplash.com/300x200/?protein" alt="Protein">
+        <h3>Protein Powder</h3>
+        <p class="price">Rp 150.000</p>
+        <button>Beli</button>
+    </div>
+
+    <div class="card">
+        <img src="https://source.unsplash.com/300x200/?fitness" alt="Fitness">
+        <h3>Alat Fitness</h3>
+        <p class="price">Rp 200.000</p>
+        <button>Beli</button>
+    </div>
+
+    <div class="card">
+        <img src="https://source.unsplash.com/300x200/?herbal" alt="Herbal">
+        <h3>Obat Herbal</h3>
+        <p class="price">Rp 70.000</p>
+        <button>Beli</button>
+    </div>
+
+</div>
+
+</body>
+</html>
